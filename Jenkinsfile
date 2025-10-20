@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = 'flask-app'
-        DOCKERHUB_USER = 'adhwaithas2007@gmail.com'
+        DOCKERHUB_USER = 'adhwaithas'
         DOCKER_IMAGE = "${DOCKERHUB_USER}/${IMAGE_NAME}"
     }
 
