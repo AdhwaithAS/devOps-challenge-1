@@ -1,4 +1,4 @@
-### **Kubernetes Challenge Submission**
+### **CI/CD Pipeline Challenge Submission**
 
 This submission includes the containerization and deployment of the provided Flask app using Docker and Kubernetes (Minikube) using Jenkins CI/CD pipeline.
 
