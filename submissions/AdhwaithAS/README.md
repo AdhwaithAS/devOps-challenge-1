@@ -10,17 +10,21 @@ This submission includes the containerization and deployment of the provided Fla
 * **Screenshots:**
 
   * Jenkins Overview: `screenshots/jenkins-overview.png`
-       ![Pods Running](https://github.com/AdhwaithAS/devOps-challenge-1/blob/main/submissions/AdhwaithAS/screenshot/jenkins-overview.png)
+  
+       ![Jenkins Overview](https://github.com/AdhwaithAS/devOps-challenge-1/blob/main/submissions/AdhwaithAS/screenshot/jenkins-overview.png)
 
   * Pods running: `screenshots/pods-running.png`
+
        ![Pods Running](https://github.com/AdhwaithAS/devOps-challenge-1/blob/main/submissions/AdhwaithAS/screenshot/pods.png)
   
 
   * Minikube Flask Service: `screenshots/service-preview.png`
-       ![Minikube Flask Service](https://github.com/AdhwaithAS/devOps-challenge-2/blob/main/submissions/AdhwaithAS/screenshot/service-preview.png)
+
+       ![Minikube Flask Service](https://github.com/AdhwaithAS/devOps-challenge-1/blob/main/submissions/AdhwaithAS/screenshot/service-preview.png)
 
 
   * Flask app accessible in browser via NodePort: `screenshots/preview.png`
+
        ![Flask app accessible in browser via NodePort](https://github.com/AdhwaithAS/devOps-challenge-1/blob/main/submissions/AdhwaithAS/screenshot/preview.png)
 
 **Folder Structure in this Submission:**
