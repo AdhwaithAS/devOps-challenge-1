@@ -63,8 +63,11 @@ ENV PYTHONUNBUFFERED="true" \
   PATH="${PATH}:/home/python/.local/bin" \
   USER="python"
 
+USER root
 RUN apt-get update && apt-get install -y dos2unix && dos2unix bin/* \
     && chmod 0755 bin/* && bin/uv-install
+USER python
+
 
 CMD ["bash"]
 
