@@ -1,4 +1,5 @@
-FROM node:22.20.0-trixie-slim AS assets
+FROM node:22.19.0-trixie-slim AS assets
+LABEL maintainer="Nick Janetakis <nick.janetakis@gmail.com>"
 
 WORKDIR /app/assets
 
@@ -32,7 +33,8 @@ CMD ["bash"]
 
 ###############################################################################
 
-FROM python:3.14.0-slim-trixie AS app-build
+FROM python:3.13.7-slim-bookworm AS app-build
+LABEL maintainer="Nick Janetakis <nick.janetakis@gmail.com>"
 
 WORKDIR /app
 
@@ -67,7 +69,8 @@ CMD ["bash"]
 
 ###############################################################################
 
-FROM python:3.14.0-slim-trixie AS app
+FROM python:3.13.7-slim-trixie AS app
+LABEL maintainer="Nick Janetakis <nick.janetakis@gmail.com>"
 
 WORKDIR /app
 
